@@ -1,0 +1,180 @@
+@media(max-width:768px){
+.nav{
+    height: 6vh;
+}
+.logo{
+    width: 50%;
+}
+.search{
+    width: 50%;
+    justify-content: flex-end;
+}
+.nav .logo img{
+    width: 100%;
+    padding-left: 1rem;
+}
+.nav .fa-bars{
+    display: block;
+    cursor: pointer;
+}
+.nav .list{
+    width: 100%;
+    max-height: 50vh;
+    position: absolute;
+    top:6vh;
+    left: 0;
+    background-color: #91972A;
+    transition: .5s linear;
+}
+.nav .list ul{
+    display: none;
+} 
+.nav .list ul li{
+    display: block;
+    padding-block:1rem;
+    text-align: center;
+}
+
+.left h1{
+        font-size: 3rem;
+        padding-block:1rem;  
+
+    }
+    .left button{
+        padding: .7rem 1.1rem;
+        border-radius: 2rem;
+    }
+    .right{
+        background-size: 15rem;
+    }
+    .boxmain h1{
+        font-size: 2.5rem;
+    }
+    .about_us .box{
+        width: 30%;
+}
+.about_us .box:nth-child(4){
+    margin-top: 1.5rem;
+}
+.about_us .box:nth-child(5){
+    margin-top: 1.5rem;
+}
+.bur{
+    width: 44%;
+}
+.subfoot{
+    width: 40%;
+}
+.social .icon{
+    width: 15%;
+}
+.apppic img{
+    width:50%;
+}
+.nav_down{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer p, .footer span{
+    padding-top: 1rem;
+}
+}
+
+@media(max-width:420px){
+    .nav{
+        height: 6vh;
+    }
+    .logo{
+        width: 50%;
+    }
+    .search{
+        width: 50%;
+        justify-content: flex-end;
+    }
+    .search #search{
+        padding: .2rem .1rem;
+
+    }
+    .nav .logo img{
+        width: 100%;
+        padding-left: 1rem;
+    }
+    .nav .fa-bars{
+        display: block;
+        cursor: pointer;
+    }
+    .nav .list{
+        width: 100%;
+        max-height: 50vh;
+        position: absolute;
+        top:6vh;
+        left: 0;
+        background-color: #91972A;
+        transition: .5s linear;
+    }
+    .nav .list ul{
+        display: none;
+    } 
+    .nav .list ul li{
+        text-align: center;
+    }
+    
+    .left{
+        width: 100%;
+    }
+    .left h1{
+            font-size: 2rem;
+            padding-block:1rem;  
+    
+        }
+        .left p{
+            font-size: .6rem;
+            padding-block:1rem;  
+    
+        }
+        .left button{
+            padding: .4rem .7rem;
+            border-radius: 2rem;
+            font-size: .5rem;
+        }
+        .right{
+            width: 100%;
+        }
+        .right{
+            background-size: 16rem;
+        }
+        .boxmain h1{
+            font-size: 2rem;
+        }
+        .about_us .box{
+            width: 45%;
+            margin-top: 1rem;
+     }
+   
+    .about_us .box:nth-child(5){
+        margin-top: 2rem;
+    }
+    .bur{
+        width: 70%;
+    }
+    .subfoot{
+        width: 60%;
+    }
+    .social .icon{
+        width: 15%;
+    }
+    .apppic img{
+        width:50%;
+    }
+    .nav_down{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .footer p, .footer span{
+        padding-top: 1rem;
+    }
+    }
